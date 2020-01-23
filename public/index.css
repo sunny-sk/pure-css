@@ -1,0 +1,1249 @@
+/* custom fonts */
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/pt_sans.ttf);
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url(fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(fonts/HindSiliguri-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont4;
+    src: url(fonts/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont5;
+    src: url(fonts/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: myfont6;
+    src: url(fonts/NunitoSans-Black.ttf);
+}
+
+@font-face {
+    font-family: myfont7;
+    src: url(fonts/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont8;
+    src: url(fonts/NunitoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont9;
+    src: url(fonts/NunitoSans-Regular.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px; //background: rgba(224, 224, 224, 0.38);
+    //background: #FCFAFA;
+    background: #000022;
+    /* richblack */
+}
+
+
+/* nav bars  */
+
+.nav {
+    padding: 2px;
+    background: #020233;
+
+}
+
+.nav button {
+    color: white;
+    float: left;
+    padding: 3px;
+    font-size: 20px;
+    margin: 9px 0% 0px 10%;
+    background: none;
+    border: none;
+    font-family: myfont1;
+}
+
+.nav .bar a:hover {
+    color:#000022;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.nav .bar {
+    margin-right: 10%;
+}
+
+.nav .bar a {
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 2px;
+    float: right;
+
+}
+
+/* End of nav bar */
+
+/* pure image */
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 200px;
+    margin-top: 8%;
+    color: white
+}
+
+.stars-1 {
+    position: absolute;
+    background: #f6f7f8;
+    height: 8%;
+    width: 3%;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.stars-2 {
+    position: absolute;
+    background: #f6f7f8;
+    height: 8%;
+    width: 3%;
+    right: 2%;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.trademark {
+    position: absolute;
+    width: 5%;
+    height: 13%;
+    left: 51%;
+    text-align: center;
+    top: 2.3%
+}
+
+.trademark p {
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.diamond {
+    position: relative;
+    background: #f6f7f8;
+    width: 18.5%;
+    height: 54%;
+    left: 40.75%;
+    top: 25%;
+    transform: rotate(45deg);
+}
+
+.diamond-inner {
+    position: absolute;
+    background: #FF3366;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    animation: 7s rotate infinite;
+}
+
+/* diamond-inner animation */
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.pure {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 35%;
+    width: 35%;
+    left: 9%;
+    text-align: right;
+}
+
+.pure p {
+    position: absolute;
+    font-size: 43px;
+    margin-top: 1.3px;
+    right: 28%;
+}
+
+.css {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 35%;
+    width: 35%;
+    right: 9%;
+    text-align: center;
+}
+
+.css p {
+    position: absolute;
+    font-size: 43px;
+    margin-top: 1.3px;
+    left: 28%;
+}
+
+.content {
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    font-family: myfont1;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+    margin-top: 5px;
+}
+
+/* button for next move */
+
+.button {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 100px;
+}
+
+.get-started {
+    position: absolute;
+    color: white;
+    left: 20%;
+    top: 30%;
+    width: 26%;
+    font-size: 18px;
+    height: 40%;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid white;
+
+}
+
+.learn-more {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 6px 0px;
+    width: 26%;
+    height: 40%;
+    top: 30%;
+    text-align: center;
+    border-radius: 25px;
+    right: 20%;
+    background: #FF3366;
+}
+
+.get-started:hover {
+    background: white;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #000022;
+}
+
+.learn-more:hover {
+    background: white;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FF3366;
+}
+
+.down-signal {
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.down-signal h1 {
+    margin-top: -20px;
+    color: white;
+    animation: 3s down-arrow infinite
+}
+
+/* go to down arrow indication animation */
+
+@keyframes down-arrow {
+    0% {
+        margin-top: -20px;
+        color: #f6f7f8;
+    }
+    100% {
+        margin-top: 20px;
+        color: #000022;
+    }
+}
+
+.space {
+    padding-top: 105px;
+}
+
+.section {
+    background: #f6f7f8;
+    padding: 10px;
+}
+
+.well {
+    margin-top: 20px;
+}
+
+.well p {
+    font-family: myfont9;
+    text-align: justify;
+    font-size: 14.8px;
+    letter-spacing: 0.4px;
+    line-height: inherit
+}
+
+#details-1 .row .col-sm-4 h3 {
+    color: #c6c6c6;
+    letter-spacing: 0.5px;
+    font-family: myfont9;
+    font-size: 24px;
+    line-height: inherit;
+}
+
+#details-1 .row .col-sm-4 p {
+    text-align: justify;
+    font-size: 13.7px;
+    font-family: myfont5;
+    letter-spacing: 0.2px;
+    line-height: 1.7em;
+}
+
+
+
+.h-i-w {
+    background-color: #f6f7f8;
+    padding-bottom: 40px;
+}
+
+.step-1 {
+    position: relative;
+    background: #000022;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    left: 20%;
+}
+
+.step-2 {
+    position: relative;
+    background: #ff557f;
+    color: white;
+    text-align: center;
+    width: 60%;
+    left: 20%;
+    margin: 20px 0px 0px 50px;
+}
+
+.step-3 {
+    position: relative;
+    background: #218421;
+    color: white;
+    text-align: center;
+    width: 60%;
+    left: 20%;
+    margin: 20px 0px 0px 80px;
+}
+
+.h-i-w p {
+    padding: 12px;
+    font-size: 17px;
+    font-family: myfont8;
+}
+
+/* awesome image css */
+
+.awesome-image {
+    background-color: #f6f7f8;
+}
+
+.box-2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 420px;
+    width: 600px;
+    margin-bottom: 7%;
+}
+
+.back-circle {
+    position: absolute;
+    height: 78%;
+    width: 55%;
+    left: 22.5%;
+    top: 10%;
+    border: 3px dashed #2FC8DC;
+    border-radius: 50%;
+    animation: 5s back_round infinite;
+}
+
+/* taking round Circle  animation*/
+
+@keyframes back_round {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.top-scroll {
+    position: absolute;
+    height: 1.4%;
+    width: 40%;
+    left: 30%;
+    top: 2%;
+    border-radius: 2px;
+    background-color: #FF5722;
+
+}
+
+.top-scroll::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 35%;
+    right: 0%;
+    border-radius: 2px;
+    background: #455A65;
+    animation: 5s left-move-right infinite;
+}
+
+/* increasing & decreasing bar animation */
+
+@keyframes left-move-right {
+    0% {
+        width: 30%;
+    }
+    50% {
+        width: 100%;
+    }
+    0% {
+        width: 30%;
+    }
+}
+
+.top-scroll::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 15px;
+    width: 15px;
+    left: 65%;
+    top: -4px;
+    z-index: 1;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0.5px;
+    animation: 5s movepoint infinite;
+}
+
+@keyframes movepoint {
+    0% {
+        left: 65%;
+    }
+    50% {
+        left: 0%;
+    }
+    100% {
+        left: 65%;
+    }
+
+}
+
+.msg-box {
+    position: absolute;
+    background-color: #FFC107;
+    color: white;
+    width: 8%;
+    height: 8%;
+    top: 8%;
+    left: 53%;
+    text-align: center;
+    border-radius: 2px;
+    animation: 5s msg-slide infinite
+}
+
+@keyframes msg-slide {
+    0% {
+        left: 53%
+    }
+    50% {
+        left: 27%
+    }
+    100% {
+        left: 53%
+    }
+}
+
+.msg-box::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 40%;
+    width: 35%;
+    background-color: #FFC107;
+    left: 32.5%;
+    top: -12%;
+    transform: rotate(45deg);
+    border-radius: 2px;
+
+}
+
+.msg-box p {
+    position: absolute;
+    left: 24%;
+    top: 17%;
+}
+
+.menu-items {
+    position: absolute;
+    height: 10%;
+    width: 8%;
+    top: 44%;
+    left: 10%;
+    background-color: #36464E;
+}
+
+.lin-1-1,
+.lin-2-2,
+.lin-3-3 {
+    position: absolute;
+    width: 60%;
+    right: 10%;
+    background-color: #fff;
+}
+
+.lin-1-1 {
+    top: 21%;
+    height: 10%;
+}
+
+.lin-2-2 {
+    top: 44%;
+    height: 10%;
+}
+
+.lin-3-3 {
+    top: 67%;
+    height: 10%;
+}
+
+.menu-items div::before {
+    content: "";
+    background-color: #fff;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    left: -20%
+}
+
+
+.heart {
+    position: absolute;
+    height: 15%;
+    width: 11%;
+    top: 20%;
+    left: 21%;
+    border-radius: 50%;
+
+    background-color: #009688;
+}
+
+.heart::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 38%;
+    width: 38%;
+    top: 24%;
+    left: 19%;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+
+.heart::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 38%;
+    width: 38%;
+    top: 24%;
+    right: 17.5%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.heart-box {
+    position: absolute;
+    background-color: #fff;
+    height: 40%;
+    width: 40%;
+    top: 36%;
+    left: 30%;
+    transform: rotate(45deg);
+}
+
+.mobile {
+    position: absolute;
+    background: #000;
+    width: 30%;
+    height: 75%;
+    border-radius: 30px;
+    left: 35%;
+    top: 27%;
+
+}
+
+.speaker {
+    position: absolute;
+
+    width: 40%;
+    height: 1%;
+    left: 30%;
+    top: 7%;
+    background: #16526f;
+    border-radius: 3%;
+}
+
+.screen {
+    position: absolute;
+
+    height: 70%;
+    width: 90%;
+    top: 14%;
+    left: 5%;
+    background: #fff;
+}
+
+.android-head {
+    position: absolute;
+    background: green;
+    height: 20%;
+    width: 46%;
+    top: 18%;
+    left: 28%;
+    -webkit-clip-path: circle(50% at 48% 100%);
+    clip-path: circle(50% at 48% 100%);
+}
+
+.android-head::after {
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 17%;
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    top: 55%;
+    left: 30%;
+}
+
+.android-head::before {
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 17%;
+    content: '';
+    background-color: #fff;
+    border-radius: 50%;
+    top: 55%;
+    right: 33%;
+    animation: 2s blink infinite
+}
+
+@keyframes blink {
+    0% {
+        background: white;
+    }
+    100% {
+        background: green;
+    }
+}
+
+.android-hand-1 {
+    position: absolute;
+    height: 26%;
+    width: 6.5%;
+    background: green;
+    right: 16.5%;
+    top: 42%;
+    border-radius: 9px;
+}
+
+.android-hand-2 {
+    position: absolute;
+    height: 26%;
+    width: 6.5%;
+    background: green;
+    left: 16.5%;
+    top: 42%;
+    border-radius: 9px;
+}
+
+.android-body {
+    position: absolute;
+    background: green;
+    height: 35%;
+    width: 45%;
+    left: 27%;
+    top: 40%
+}
+
+.android-body::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 36%;
+    width: 15%;
+    top: 90%;
+    left: 25%;
+    font-size: 22px;
+    background: green;
+    border-radius: 8px;
+
+}
+
+.android-body::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 40%;
+    width: 15%;
+    top: 96%;
+    right: 25%;
+    font-size: 22px;
+    background: green;
+    border-radius: 8px;
+
+}
+
+.home-button {
+    position: absolute;
+    border: 3.5px solid white;
+    background: #000;
+    height: 8%;
+    width: 14%;
+    bottom: 3.5%;
+    left: 42.5%;
+    border-radius: 50%;
+}
+
+.android-inner-search-bar {
+    position: absolute;
+    border: 1px solid orange;
+    width: 33%;
+    top: 40%;
+    left: 28%;
+    height: 28px;
+    background-color: #fff;
+}
+
+.android-inner-search-bar p {
+    position: absolute;
+    top: 3px;
+    margin-left: 10px;
+    font-family: monospace;
+    color: gray
+}
+
+.android-inner-search-bar::after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 100%;
+    width: 20%;
+    background: #FF5722;
+    right: 0%;
+}
+
+.player {
+    position: absolute;
+    border-radius: 2px;
+    width: 30%;
+    top: 50%;
+    right: 13%;
+    height: 30px;
+    background-color: #FFEB3B;
+}
+
+.player::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 17%;
+    top: 40%;
+    left: 24%;
+    border-radius: 3px;
+    background: #1C9883;
+}
+
+.player::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25%;
+    height: 17%;
+    top: 40%;
+    right: 20%;
+    border-radius: 3px;
+    background: #000022;
+    z-index: 1;
+}
+
+.play-btn {
+    transform: rotate(90deg);
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    width: 17%;
+    left: -0.5%;
+    background-color: #FF9800;
+    border-radius: 2px;
+}
+
+.volume {
+    position: absolute;
+    height: 100%;
+    width: 13%;
+    right: 0%;
+    background-color: #FF9800;
+    border-radius: 2px;
+}
+
+
+/*media queries for responsive view */
+
+
+@media screen and (max-width:610px) {
+    .nav {
+        text-align: center
+    }
+    .box {
+        width: 350px;
+        height: 116.5px;
+        margin-top: 10%;
+    }
+    .trademark {
+        position: absolute;
+        width: 5%;
+        height: 13%;
+        left: 52%;
+        text-align: center;
+        top: -2.5%
+    }
+
+    .trademark p {
+        margin-top: 5px;
+        font-size: 19px;
+    }
+    .pure {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 29%;
+        width: 35%;
+        left: 9%;
+        text-align: right;
+    }
+
+    .pure p {
+        position: absolute;
+        font-size: 35px;
+        margin-top: 0px;
+        right: 28%;
+    }
+    .css {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 29%;
+        width: 35%;
+        right: 9%;
+        text-align: center;
+    }
+    .css p {
+        font-size: 35px;
+        left: 28%;
+    }
+
+    .content {
+        font-size: 17px;
+        margin-top: 8px;
+    }
+    .button {
+        margin-top: 15px;
+        width: 350px;
+        height: 90px;
+    }
+    .get-started {
+        left: 15%;
+        top: 30%;
+        width: 32%;
+        font-size: 15px;
+        height: 40%;
+        padding: 6px 0px;
+        border-radius: 25px;
+        border: 1px solid white;
+
+    }
+    .learn-more {
+        font-size: 15px;
+        border: 1px solid white;
+        padding: 6px 0px;
+        width: 32%;
+        height: 40%;
+        top: 30%;
+        text-align: center;
+        border-radius: 25px;
+        right: 15%;
+        background: #FF3366;
+    }
+    .get-started:hover {
+
+        font-size: 15px;
+
+    }
+
+    .learn-more:hover {
+        font-size: 15px;
+    }
+    .step-1 {
+        margin-left: -20px
+    }
+    .step-2 {
+
+        margin: 15px 0px 0px 17px;
+    }
+    .step-3 {
+        margin: 15px 0px 0px 40px;
+    }
+    
+    
+    .box-2{
+        margin-top: -4%;
+     width: 350px;
+     height: 250px;
+       
+    }
+    
+.top-scroll::before {
+    height: 13px;
+    width: 13px;
+    top: -4.5px;
+}
+    .msg-box p {
+    font-size: 11.5px;
+    left: 13%;
+}
+
+    
+.lin-1-1 {
+    top: 21%;
+    height: 9%;
+}
+
+    .heart {
+    
+    height: 14%;
+    width: 10%;
+    left: 23%;
+    
+}
+.mobile {
+   
+    height: 73%;
+    border-radius: 16px;
+    top: 28%;
+
+}
+
+.home-button {
+    border: 2px solid white;
+   
+}
+
+.android-inner-search-bar {
+   
+    border: 1px solid orange;
+  
+    left: 26%;
+    height: 20px;
+   
+}
+
+.android-inner-search-bar p {
+   
+    top: 0px;
+    margin-left: 12px;
+    
+}
+
+
+.player {
+    height: 22px;
+   
+}
+
+
+
+
+.play-btn {
+    
+    font-size: 17px;
+    font-weight: bold;
+    height: 100%;
+    width: 21%;
+  
+}
+
+    
+}
+
+@media screen and (max-width:400px) {
+    .box {
+        margin-top: 23%;
+        width: 270px;
+        height: 90px;
+    }
+    .trademark {
+        position: absolute;
+        width: 5%;
+        height: 13%;
+        left: 52%;
+        text-align: center;
+        top: -5%
+    }
+
+    .trademark p {
+        margin-top: 5px;
+        font-size: 19px;
+    }
+    .pure {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 29%;
+        width: 35%;
+        left: 9%;
+        text-align: right;
+    }
+
+    .pure p {
+        position: absolute;
+        font-size: 30px;
+        margin-top: 0px;
+        right: 28%;
+    }
+    .css {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 29%;
+        width: 35%;
+        right: 9%;
+        text-align: center;
+    }
+    .css p {
+        font-size: 30px;
+        left: 28%;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+    .button {
+        margin-top: 3px;
+        width: 270px;
+        height: 80px;
+    }
+    .get-started {
+        left: 13%;
+        top: 30%;
+        width: 35%;
+        font-size: 13px;
+        height: 35%;
+        padding: 5px 0px;
+        border-radius: 25px;
+        border: 1px solid white;
+
+    }
+    .learn-more {
+        font-size: 13px;
+        border: 1px solid white;
+        padding: 5px 0px;
+        width: 32%;
+        height: 35%;
+        top: 30%;
+        text-align: center;
+        border-radius: 25px;
+        right: 13%;
+        background: #FF3366;
+    }
+    .get-started:hover {
+
+        font-size: 13px;
+
+    }
+
+    .learn-more:hover {
+        font-size: 13px;
+    }
+
+    .step-1 {
+        width: 100%;
+        margin-left: 0px;
+        left: 0%;
+    }
+    .step-2 {
+        width: 100%;
+        left: 0%;
+        margin-left: 0px;
+
+    }
+    .step-3 {
+        width: 100%;
+        left: 0%;
+        margin-left: 0px;
+    }
+    
+    .box-2 {
+        width: 260px;
+        height: 183px;
+        margin-top: -20%;
+        
+    }
+    .top-scroll::before {
+    height: 12px;
+    width: 12px;
+  
+}
+    .msg-box{
+         top: 10%;
+    }
+    .msg-box::before {
+   
+    top: -18%;
+
+}
+
+    .msg-box p {
+    font-size: 9px;
+    left: 13%;
+}
+
+    
+.lin-1-1 {
+    top: 21%;
+    height: 9%;
+}
+
+ 
+.mobile {
+   
+    height: 73%;
+    border-radius: 12px;
+    top: 28%;
+
+}
+
+.home-button {
+    height: 8.5%;
+    border: 1.5px solid white;
+   
+}
+
+.android-inner-search-bar {
+   
+    border: 1px solid orange;
+  width: 30%;
+    left: 26%;
+    height: 13px;
+}
+
+.android-inner-search-bar p {
+   
+    top: -2px;
+    margin-left: 12px;
+    font-size: 10px;    
+}
+
+
+.player {
+    height: 14px;   
+}
+
+.play-btn {
+    font-size: 12px;
+    width: 18%;
+
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.copy-right p {
+    color: #f6f7f8;
+    text-align: center;
+    margin-top: 4px;
+    font-family: myfont;
+    bottom:
+}

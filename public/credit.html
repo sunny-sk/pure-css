@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Credit By Pure Css</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+    <style>
+        body{
+    background: #000022;
+            }
+        
+        /* custom fonts */
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/pt_sans.ttf);
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url(fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(fonts/HindSiliguri-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont4;
+    src: url(fonts/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont5;
+    src: url(fonts/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: myfont6;
+    src: url(fonts/NunitoSans-Black.ttf);
+}
+
+@font-face {
+    font-family: myfont7;
+    src: url(fonts/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont8;
+    src: url(fonts/NunitoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont9;
+    src: url(fonts/NunitoSans-Regular.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px; //background: rgba(224, 224, 224, 0.38);
+    //background: #FCFAFA;
+    background: #000022;
+    /* richblack */
+}
+
+
+/* nav bars  */
+
+.nav {
+    padding: 2px;
+    background: #020233;
+
+}
+
+.nav button {
+    color: white;
+    float: left;
+    padding: 3px;
+    font-size: 20px;
+    margin: 9px 0% 0px 10%;
+    background: none;
+    border: none;
+    font-family: myfont1;
+}
+
+.nav .bar a:hover {
+    color:#000022;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.nav .bar {
+    margin-right: 10%;
+     text-align: center;
+}
+
+.nav .bar a {
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 2px;
+    
+
+}
+
+/* End of nav bar */
+
+        
+        .fluid{
+            position: absolute;
+            width: 98%;
+          
+            padding-top: 40px;
+            left: 1%;
+        }
+        .credit{
+            position: absolute;
+            padding-top: 25px;
+             border-left: 4px solid #ff1493;
+            
+        }
+        #text{
+            font-family: myfont5;
+            font-size: 15px;
+           
+        }
+        .btn{
+            border-radius: 1px;
+            margin-left: 10px;
+            
+        }
+        
+        
+        @media screen and (min-width:600px){
+            .credit{
+                width:60%;
+                left: 20%;
+            }
+			.copy-right{
+			 width:80%;
+        }
+		}
+		
+        .copy-right {
+          text-align: center;
+          background-color:#000022;
+}
+
+.copy-right p {
+    color:#f6f7f8 ;
+    text-align: center;
+    margin-top: 6px;
+	padding-top:2px;
+	
+}
+
+        
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+    <!-- nav bar -->
+    <div class="nav">
+       <!-- user name -->
+        <button id="name">Pure Css</button>
+        <!-- end of user name -->
+        <!-- links -->
+        <div class="bar"> <a class="glyphicon glyphicon-heart-empty" href="credit.html"></a>
+            <a class="glyphicon glyphicon-earphone" href="contact.html"></a>
+            <a class="glyphicon glyphicon-paperclip" href="gallary.html"></a>
+            <a class="glyphicon glyphicon-home" href="index.html"></a>
+        </div>
+    </div>
+
+    
+    <div class="fluid">
+      <div class="credit well">
+         <p  id="text">The awesome Online platform &
+		 Editor for the web Designing and resources of great Ideas
+		 checking click the link given below. 
+		 <br> <br> <a class="btn btn-success"href="https://codepen.io/">Codepen.io</a></p>
+      
+          <p id="text">Are you Confusing ?
+		  while Choosing the color combinations !
+		  Don't worry we Have a Solution <br><br> <a class="btn btn-danger" href="https://coolors.co/">Coolors</a></p>
+        
+          <p id="text">smart work for web- Designing 
+		  then surely you have to catch the website 
+		  link below. <br><br>
+         <a class="btn btn-warning" href="https://bennettfeely.com/clippy/">Clip-path maker</a></p>
+          <p id="text">
+              one of the biggest problem in web-designing 
+			  is refresh the output again and again ,
+			  so choose bracket.io it will help you 
+			  Surely. <br><br> <a class="btn btn-info" href="http://brackets.io/">Bracket</a>
+			  </p>
+			  <br />
+           <div class="container copy-right">
+        <p>&copy; by Pure Css</p>
+    </div>
+           
+      </div>
+	  
+    </div>
+    
+    
+</body>
+</html>

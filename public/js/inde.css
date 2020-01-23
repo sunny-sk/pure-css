@@ -1,0 +1,359 @@
+body {
+  // background: #05a4db;
+   background: #000;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/pt_sans.ttf);
+}@font-face {
+    font-family: myfont1;
+    src: url(fonts/Caveat-Bold.ttf);
+}
+
+.box {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+}
+
+.trademark {
+    position: absolute;
+    width: 6%;
+    height: 7%;
+    left: 51%;
+    top: 17%;
+    text-align: center;
+     color: white;
+    font-size: 25px;
+}
+.diamond-top {
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    background:lightgray ;
+  //  background: #5526C2;
+  /*  background: #750D37;*/ 
+    left: 37.5%;
+    top: 20.1%;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation: 4s roll-out linear;
+}
+.diamond-btm {
+    position: absolute;
+    width: 25%;
+    height: 14%;
+      background: #5526C2;
+ /*    background: #45062E;  */
+    left: 37.5%;
+    top: 50%;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    animation: 4s roll-out linear;
+}
+@keyframes roll-out{
+    0%{transform: rotateY(0deg);}
+    50%{transform: rotateY(180deg);}
+            100%{transform: rotateY(360deg);
+        }
+}
+
+.inner-diamond-top {
+    position: absolute;
+    width: 97%;
+    height: 110%;
+     background: linear-gradient(#F56D2F, #76927E);
+  //  background: #E5FCF5;
+    right: -5%;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation:3s color linear;
+}
+
+.inner-diamond-btm {
+    position: absolute;
+    width: 93%;
+    height: 116%;
+   background:  linear-gradient(#76927E,#31A7A9);
+  //  background: #E5FCF5;
+    right: -5%;
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+     animation:3s color linear;
+}
+
+@keyframes color{
+    0%{background: #05a4db;}
+    50%{background: #E5FCF5;}
+    100%{background: #05a4db;}
+}
+
+.pure {
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 40%;
+    left: 9%;
+    color: white;
+    font-size: 50px;
+}
+.pure p {    
+  float: left;
+}
+
+.anm-1 {
+    position: relative;
+    animation: 4s top-down infinite;
+}
+
+.anm-2 {
+    position: relative;
+    animation: 4s left-rgt infinite;
+}
+
+.anm-3 {
+    position: relative;
+    animation: 4s rgt-left infinite;
+}
+
+.anm-4 {
+    position: relative;
+    transform: rotate(10deg);
+}
+
+@keyframes top-down {
+    0% {
+        bottom: 54px;
+    }
+    50% {
+        bottom: 0px;
+        transform: rotate(10deg)
+    }
+    100% {
+        bottom: 54px;
+        transform: rotate(-10deg)
+    }
+}
+
+@keyframes left-rgt {
+    0% {
+        left: 1%;
+    }
+    50% {
+        left: 0%;
+    }
+    100% {
+        left: 1%;
+    }
+
+}
+
+@keyframes rgt-left {
+    0% {
+        left: 1%;
+        transform: rotate(20deg)
+    }
+    50% {
+        left: 0%;
+        transform: rotate(0deg)
+    }
+    100% {
+        left: 1%;
+        transform: rotate(10deg)
+    }
+}
+
+.css {
+    position: absolute;
+    height: 10%;
+    width: 25%;
+    top: 40%;
+    right:7%;
+    color: white;
+}
+
+.c {
+    position: absolute;
+    height: 110%;
+    width: 42%;
+    left: -10%;
+    bottom: -29%;
+    background: white;
+    -webkit-clip-path: polygon(71% 80%, 42% 65%, 36% 44%, 36% 35%, 46% 26%, 78% 9%, 42% 10%, 29% 21%, 20% 35%, 19% 49%, 19% 61%, 21% 74%, 43% 83%);
+    clip-path: polygon(71% 80%, 42% 65%, 36% 44%, 36% 35%, 46% 26%, 78% 9%, 42% 10%, 29% 21%, 20% 35%, 19% 49%, 19% 61%, 21% 74%, 43% 83%);
+    animation: 4s roll infinite;
+}
+
+@keyframes roll {
+    0% {
+        transform: rotateY(0);
+    }
+    25% {
+        transform: rotateY(90deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    75% {
+        transform: rotateY(270deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.ss {
+    position: absolute;
+    left: 25%;
+    font-size: 50px;
+}
+
+
+.content{
+    position:absolute;
+    top:51%;
+    width: 100%;
+    font-size:22px;
+    color:white;
+    font-family: myfont1;
+    text-align:center;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+}
+
+.get-started{
+    position: absolute;
+    color:white;
+    font-size:18px;
+    border: 1px solid white;
+    padding:8px 0px ;
+    width:26%;
+    text-align: center;
+    border-radius: 25px;
+    top:90%;
+    left:20%;
+}
+.learn-more{
+    position: absolute;
+    color:white;
+    font-size:18px;
+    border: 1px solid white;
+    padding:8px 0px ;
+    width:26%;
+    text-align: center;
+    border-radius: 25px;
+    top:90%;
+    right:19%;
+    background: white;
+    color: #05a4db;
+}
+
+.get-started:hover{
+    background:white;
+     font-size:18px;
+    text-decoration: none;
+    border: 1px solid white;
+    color:#05a4db;
+}
+
+.learn-more:hover{
+    background:#05a4db;
+     font-size:18px;
+    text-decoration: none;
+    color:white;
+}
+
+/* media queries for responsive view */
+@media screen and (max-width:599px){
+    body{
+        //background: #073959;
+        background: #05a4db;
+    }
+    .box{
+        width:400px;    
+    }
+    .trademark {
+    left: 52%;
+    top: 20%;
+}
+    
+.diamond-top {
+    height: 24%;
+    background: #750D37;
+    top: 23%;
+}
+.diamond-btm {
+    width: 25%;
+    height: 9%;
+    background: #45062E;
+    top: 47%;   
+}
+    .inner-diamond-top {
+     background: #E5FCF5;
+}
+
+.inner-diamond-btm {
+     background: #E5FCF5;
+}
+
+    .pure p {
+    font-size: 40px;
+}
+   .pure {  
+    top: 40%;
+    left: 3%;
+}
+    
+    .c {
+    height: 100%;
+    width: 41%;
+    bottom: -17%;}
+
+.ss {
+    left: 25%;
+}
+
+.css p {
+    font-size: 40px;
+}
+    .content{
+   
+    width:90%;
+    left:5%;
+    top:46%;
+    font-size:21px;
+    color:white;
+    font-family: myfont1;
+    text-align:center;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+}
+    .get-started{
+    font-size:16px;
+    border: 1px solid white;
+    padding:7.5px 0px ;
+    width:28%;
+    text-align: center;
+    border-radius: 25px;
+    top:90%;
+    left:20%;
+}
+.learn-more{
+    
+    font-size:16px;
+    border: 1px solid white;
+    padding:7.5px 0px ;
+    width:28%;
+    text-align: center;
+    border-radius: 25px;
+    top:90%;
+    right:19%;
+    background: white;
+    color: #05a4db;
+}
+
+}
+

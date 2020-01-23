@@ -1,0 +1,158 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #40798C;
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    display: block; 
+    width: 600px;
+    height:420px;
+    margin-top: 8%;
+    background:none;
+}
+@media screen and (max-width:601px){
+    .box{
+        margin-top: 80px;
+        width:460px;
+        height:350px;
+    }
+   .box .head .ear-left{
+    position: absolute;
+    width: 55%;
+    height: 55%;
+    }
+
+    .box .head .ear-right{
+    position: absolute;
+    width: 55%;
+    height: 55%;
+
+    }
+
+}
+    
+@media screen and (max-width:460px){
+    .box{
+        margin-top: 60px;
+        width:260px;
+        height:200px;
+    }
+    
+    }
+
+.head{
+    position: absolute;
+    background: #A6BECF;
+    width: 50%;
+    height: 67%;
+    top: 16.5%;
+    left:25%;
+    border-radius: 50%;
+
+}
+.head-copy{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: #A6BECF;
+    border-radius:50%;
+    z-index:2;
+}
+.ear-left{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    top: 5%;
+    left:-20%;
+    background: #A6BECF;
+    z-index:1;
+    border-radius:50%;
+    animation:spindle 3s infinite;
+}
+.ear-right{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    top: 5%;
+    right:-20%;
+    background:#A6BECF;
+    z-index:1;
+    border-radius:50%;
+    animation: spindle 3s infinite;
+}
+
+@keyframes spindle {
+    0%{
+        transform: rotate(0deg);
+        background: #A6BECF;
+        
+    }   
+    100%{
+       transform: rotate(36deg);  
+        background: #333333;
+    }
+}
+
+.inner-ear{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left:10%;
+    background: #819CAF;
+    border-radius:50%;
+}
+
+.eye-left{
+    position: absolute;
+    width:30% ;
+    height:33% ;
+    background: #ffffff;
+    z-index:2;
+    border-radius: 50%;
+    top:25%;
+    left:20%
+}
+.eye-right{
+    position: absolute;
+    width:30% ;
+    height:33% ;
+    background: #ffffff;
+    z-index:2;
+    border-radius: 50%;
+    top:25%;
+    right:20%
+}
+.inner-pupil{
+    position: relative;
+    border-radius:50%;
+    background: black;
+    height:30%;
+    width:30%;
+    top:0%;
+    left:36%;
+    animation: round 4s linear infinite;}
+@keyframes round{
+    0%{ 
+        transform: rotate(0deg) translateX(10%) rotate(0deg);
+        
+    }
+    100%{
+       transform: rotate(360deg) translateX(10%) rotate(-360deg);
+        
+    }
+}
+.nose{
+    position: relative;
+    background: #BE845F;    
+    border-radius: 50px;
+    width:25%;
+    height: 42.5%;
+    z-index:3;
+        left:37%;
+    top:45%;
+}
+    

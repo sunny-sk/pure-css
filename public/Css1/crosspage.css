@@ -1,0 +1,235 @@
+/* color code */
+
+#pink {
+    background: #F9A1C7;
+}
+
+#yellow {
+    background: #FDC202;
+}
+
+#green {
+    background: #5DE88D;
+}
+
+#blue {
+    background: #08A8FE;
+}
+
+#one {
+    color: red;
+}
+
+#two {
+    color: green;
+}
+
+#three {
+    color: brown
+}
+
+#four {
+    color: #000000
+}
+
+#six {
+    color: #08A8FE;
+}
+
+.name {
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+}
+
+.name p {
+    padding:7px;
+    font-size: 27px;
+    color: white
+}
+
+.box {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    width: 600px;
+    height: 500px;
+    border: 2px solid white;
+    background: #000;
+
+}
+
+.blk-right {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: black;
+    right: 0%;
+}
+
+.first {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    right: 33%;
+    z-index: 2;
+    transform: rotate(30deg);
+    -webkit-clip-path: polygon(39% 0, 96% 3%, 100% 100%, 0% 100%);
+    clip-path: polygon(39% 0, 96% 3%, 100% 100%, 0% 100%);
+}
+
+.second {
+    position: absolute;
+    width: 28%;
+    height: 28%;
+    left: 32.4%;
+    top: 25.5%;
+    transform: rotate(-9deg);
+}
+/* shadow on yellow */
+.yello-sh {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background: rgba(173, 173, 173, 0.17);
+    left: 14%;
+    top: 1%;
+    transform: rotate(-51deg);
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 45% 100%);
+    clip-path: polygon(100% 100%, 100% 0, 45% 100%);
+}
+
+.third {
+    position: absolute;
+    width: 35%;
+    height: 33%;
+    left: 20%;
+    top: 57%;
+    transform: rotate(10deg);
+}
+/* shadow on green */
+.green-sh {
+    position: absolute;
+    width: 30%;
+    height: 79%;
+    top: 42%;
+    right: 33%;
+    background: rgba(173, 173, 173, 0.30);
+    transform: rotate(-24deg);
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 45% 0);
+    clip-path: polygon(100% 100%, 100% 0, 45% 0);
+}
+
+.fourth {
+    position: absolute;
+    width: 30%;
+    height: 37%;
+    top: 58.5%;
+    left: 25.5%;
+    transform: rotate(7deg);
+    -webkit-clip-path: polygon(100% 0, 38% 21%, 67% 100%, 100% 94%);
+    clip-path: polygon(100% 0, 38% 21%, 67% 100%, 100% 94%);
+
+}
+
+/* Source code details */
+
+.index-file {
+    width: 600px;
+}
+
+.index-file p {
+    font-family: monospace;
+    margin-left: 12%;
+}
+.index p{
+    font-family: monospace;
+    margin-left: 12%;
+} 
+
+
+@media screen and (max-width:600px) {
+    body {}
+    .box {
+        width: 449px;
+        height: 400px;
+    }
+    .second {
+        left: 32.1%;
+        top: 25.9%;
+    }
+
+    .yello-sh {
+        width: 30%;
+        left: 16%;
+        top: 1%;
+    }
+    .index-file {
+        width: 100%;
+    }
+    .index-file p{
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (max-width:449px) {
+    .box {
+        width: 250px;
+        height: 230px;
+    }
+    .second {
+        top: 26%;
+        left: 32.1%
+    }
+    .yello-sh {
+        left: 18.3%;
+    }
+
+    .green-sh {
+
+        top: 42%;
+        right: 30%;
+        transform: rotate(-21deg);
+    }
+
+    .fourth {
+        left: 26.5%;
+    }
+    .index p{
+    font-family: monospace;
+    margin-left: 2.8%;
+} 
+    .index-file p{
+    margin-left: 2.8%;
+} 
+}
+/* collapse btn */
+.btn-info{
+    margin-left: 12%;
+    width:80%;
+    height:30px;
+    margin-bottom: 20px;
+    border-radius:0px;
+    background: #08A8FE;
+}
+/* next btn link css */
+.next-btn{
+    padding:10px;
+    background: #164a40;
+    color:white;  
+}.next-btn:hover{
+    padding:20px;
+    background: #000;
+    color:white; 
+    text-decoration: none;
+}
+
+/* Bottom */
+.bottom{
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+    color:white;
+    width:100%
+}

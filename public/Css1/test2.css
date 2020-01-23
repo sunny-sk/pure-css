@@ -1,0 +1,223 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #62e6e6;
+}
+
+.box {
+
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 420px;
+    margin-top: 8%;
+}
+
+.head-circle {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    height: 60%;
+    width: 40%;
+    left: 30%;
+    top: 20%
+}
+
+.left-eye {
+    position: absolute;
+    background: #2E3532;
+    border-radius: 50%;
+    width: 9%;
+    height: 14%;
+    top: 29%;
+    left: 33%;
+}
+
+.right-eye {
+    position: absolute;
+    background: #2E3532;
+    border-radius: 50%;
+    width: 9%;
+    height: 14%;
+    top: 29%;
+    right: 33%;
+}
+
+.mouth {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    background: #BA1200;
+    bottom: 15%;
+    left: 25%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.eyebrow-left {
+    position: absolute; //background: #000;
+    width: 21%;
+    height: 6%;
+    top: 18%;
+    left: 28%;
+    border-radius: 50%;
+    border-bottom: 5px solid black;
+
+}
+
+.eyebrow-right {
+    position: absolute; //background: #000;
+    width: 21%;
+    height: 6%;
+    top: 18%;
+    right: 29%;
+    border-radius: 50%;
+    border-bottom: 5px solid black;
+}
+
+.teeth-1 {
+    position: absolute;
+    height: 10%;
+    width: 14%;
+    background: white;
+    bottom: 35.5%;
+    left: 25%;
+    -webkit-clip-path: polygon(50% 99%, 0 0, 100% 0);
+    clip-path: polygon(50% 99%, 0 0, 100% 0);
+
+}
+
+.teeth-2 {
+    position: absolute;
+    height: 8.5%;
+    width: 10%;
+    background: white;
+    bottom: 37%;
+    left: 39%;
+    -webkit-clip-path: polygon(50% 99%, 0 0, 100% 0);
+    clip-path: polygon(50% 99%, 0 0, 100% 0);
+
+}
+
+.teeth-3 {
+    position: absolute;
+    height: 8.5%;
+    width: 10%;
+    background: white;
+    bottom: 37%;
+    left: 49%;
+    -webkit-clip-path: polygon(50% 99%, 0 0, 100% 0);
+    clip-path: polygon(50% 99%, 0 0, 100% 0);
+
+}
+
+.teeth-4 {
+    position: absolute;
+    height: 16%;
+    width: 17%;
+    background: white;
+    bottom: 30%;
+    right: 25%;
+    -webkit-clip-path: polygon(50% 99%, 0 0, 100% 0);
+    clip-path: polygon(50% 99%, 0 0, 100% 0);
+
+}
+
+.toungh {
+    position: absolute;
+    background: #fa899d;
+    height: 35%;
+    width: 25%;
+    bottom: -6%;
+    left: 37.5%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.arm-1 {
+    position: absolute;
+    background: white;
+    width: 55%;
+    height: 25%;
+    left: -30%;
+    top: 40%;
+    transform: rotate(-40deg);
+    border-radius: 40px;
+}
+
+.arm-2 {
+    position: absolute;
+    background: white;
+    width: 55%;
+    height: 25%;
+    right: -30%;
+    top: 40%;
+    transform: rotate(40deg);
+    border-radius: 40px;
+}
+
+@media screen and (max-width:599px) {
+    .box {
+        margin-top: 20px;
+        width: 398px;
+        height: 265px;
+    }
+    .eyebrow-left {
+
+        width: 20%;
+        border-bottom: 3px solid black;
+
+    }
+    .eyebrow-right {
+        width: 20%;
+        border-bottom: 3px solid black;
+    }
+    .teeth-1 {
+        bottom: 36%;
+    }
+
+}
+
+@media screen and (max-width:398px) {
+    .box {
+        width: 270px;
+        height: 175px;
+    }
+
+    .eyebrow-left {
+        width: 20%;
+        border-bottom: 1.5px solid black;
+
+    }
+    .eyebrow-right {
+        width: 20%;
+        border-bottom: 1.5px solid black;
+    }
+    .left-eye {
+
+        width: 9%;
+        height: 12%;
+
+    }
+    .right-eye {
+
+        width: 9%;
+        height: 12%;
+
+    }
+    .toungh {
+
+        height: 32%;
+        width: 24%;
+        bottom: -3%;
+        left: 37%;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+}

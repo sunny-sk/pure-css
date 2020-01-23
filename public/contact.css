@@ -1,0 +1,165 @@
+
+/* nav bars  */
+
+.nav {
+    padding: 2px;
+    background: #020233;
+
+}
+
+.nav button {
+    color: white;
+    float: left;
+    padding: 3px;
+    font-size: 20px;
+    margin: 9px 0% 0px 10%;
+    background: none;
+    border: none;
+    font-family: myfont1;
+}
+
+.nav .bar a:hover {
+    color:#000022;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.nav .bar {
+    margin-right: 10%;
+}
+
+.nav .bar a {
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px 2px;
+    float: right;
+
+}
+
+/* End of nav bar */
+
+@font-face {
+    font-family: myfont;
+    src: url(fonts/pt_sans.ttf);
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url(fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(fonts/HindSiliguri-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont3;
+    src: url(fonts/HindSiliguri-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont4;
+    src: url(fonts/NanumGothic-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont5;
+    src: url(fonts/NanumGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: myfont6;
+    src: url(fonts/NunitoSans-Black.ttf);
+}
+
+@font-face {
+    font-family: myfont7;
+    src: url(fonts/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: myfont8;
+    src: url(fonts/NunitoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: myfont9;
+    src: url(fonts/NunitoSans-Regular.ttf);
+}
+.container-fluid .contact{
+text-align: center;
+    margin-top: 10%;
+    letter-spacing: 4px;
+}
+.container-fluid p{
+    text-align:center;
+    letter-spacing:1.5px; ;
+
+}
+.row{padding: 40px 0% 0% 0%;}
+.right{
+text-align: ;
+  
+}
+.col-sm-4 h3{
+    font-size: 24px;
+    font-family: myfont1;
+    margin-left: px;
+}
+.col-sm-4 h3:before{
+        color:white;
+}
+.col-sm-8{
+ 
+}
+
+.name{
+    width: 39%;
+    padding: 6px;
+     margin:35px 13px 9px 23px;
+}
+.emale{
+    width: 40%;
+    padding: 6px;
+}
+.msg{
+  width: 81%; 
+    padding: 6px;
+    width: 100%;
+}
+
+@media screen and (min-width:560px){
+   
+    .col-sm-4 h3{
+    font-size: 24px;
+    margin-left: 20%;
+}
+    .name{
+    position: relative;
+    width: 39%;
+    padding: 6px;
+        left: 6.5%;
+        margin-right: 50px;
+        margin-top:40px
+   
+}
+.emale{
+    position: relative;
+    
+    width: 40%;
+    padding: 6px;
+}
+.msg{
+    position: absolute;
+  width: 81%; 
+    padding: 6px;
+    width: 80%;
+    left: 10%;
+}
+    
+    
+}

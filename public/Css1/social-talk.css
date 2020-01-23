@@ -1,0 +1,363 @@
+/* color codes */
+#one{color:#ff0000;}
+#two{color:#7024c9;}
+#two-1{color:#008000;}
+#three{color:#b92828;}
+#four{color:#ff1493;}
+#five{color:#006400;}
+#five-1{color:#3cb371;}
+#six{color:#DD5E65;}
+#seven{color:#3666AE;}
+#seven-1{color:#02A1E2;}
+
+/* top part (name) */
+.name{
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+}
+
+.name p{
+    padding:7px;
+    font-size: 27px;
+    color:white
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 600px;
+    height:450px;
+    margin-top: 7%;
+   background: #F7F8FC ;
+}
+
+.back-circle{
+    position: absolute;
+    height:23.5%;
+    width:18%;
+    bottom:30%;
+    left:1.5%;
+    background: #C2DAE6;
+    border-radius: 50%;
+    z-index: 2;
+}
+.front-circle{
+    position: absolute;
+    width:90%;
+    height:90%;
+    top:5%;
+    left:10%;
+    background:#ffffff;
+    border-radius:50%;
+}
+
+.back-portion{
+    position: absolute;
+    height: 77%;
+    width: 80%;
+    top:16%;
+    left:7%;
+    background: #C2DAE6;
+    transform: rotate(4deg)
+}
+.top-portion{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top:7%;
+    left:9.3%;
+    background: #ffffff;
+    border-radius:1px;
+}
+.lin-1{
+    position: absolute;
+    width:20%;
+    height:2.5%;
+    top: 3%;
+    left:8%;
+    background: lightgray;
+    border-radius:23px;
+}
+.lin-2{
+    position: absolute;
+    width:14%;
+    height:1.5%;
+    top: 8%;
+    left:8%;
+    background: lightgray;
+    border-radius:23px;
+}
+.lin-3{
+    position: absolute;
+    width:60%;
+    height:2.5%;
+    top: 14%;
+    left:3%;
+    background: #efefef;
+    border-radius:23px;
+    
+}
+.lin-4{
+    position: absolute;
+    width:40%;
+    height:3%;
+    top: 20%;
+    left:3%;
+    background: #efefef;
+    border-radius:23px;
+}
+.lin-6{
+    position: absolute;
+    width: 94%;
+    height:1%;
+    bottom:16%;
+    left:3%;
+    background: #efefef;
+    border-radius:23px;
+}
+.rght-arrow{
+    position: absolute;
+    height: 6%;
+    width: 6%;
+    bottom:4%;
+    right:6%;
+    background: lightgray;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    
+}
+.wrapper{
+    position: absolute;
+    width:100%;
+    height:40%;
+    top:30%;
+    background:#02A1E2;
+    
+}
+
+.wraper-ring-1{
+    position: absolute;
+    width: 22%;
+    height:50%;
+    left:3%;
+    background: #3666AE;
+    transform: rotate(180deg);
+    -webkit-clip-path: circle(50% at 50% 65%);
+clip-path: circle(50% at 50% 65%);
+}
+.wraper-ring-2{
+    position: absolute;
+    width: 22%;
+    height:50%;
+    right:30%;
+    bottom:0%;
+    background: #3666AE;
+    -webkit-clip-path: circle(50% at 50% 65%);
+clip-path: circle(50% at 50% 65%);
+}
+.wraper-ring-3{
+    position: absolute;
+    width: 16%;
+    height:45%;
+    right:0%;
+    background: #3666AE;
+    border-bottom-left-radius: 100%;
+}
+.col-1{
+    position: absolute;
+    height:50%;
+    width:2%;
+    left: 30%;
+    top:5%;
+    background: #F8AA0C;
+    border-radius:10px;
+    transform:rotate(20deg);
+}.col-2{
+    position: absolute;
+    height:50%;
+    width:2%;
+    right: 25%;
+    top:15%;
+    background: #F8AA0C;
+    border-radius:10px;
+    transform:rotate(-93deg);
+}
+
+.ring-1{
+    position: absolute;
+    height: 4.8%;
+    width: 3.8%;
+    bottom:23%;
+    left:13%;
+    background:#DE5B69;
+    border-radius: 50%;
+}
+.ring-2{
+    position: absolute;
+    height: 4.8%;
+    width: 3.8%;
+    bottom:23%;
+    left:18%;
+    background: #F1AD0C;
+    border-radius: 50%;
+}
+.lin-5{
+    position: absolute;
+    width:20%;
+    height:1.5%;
+    bottom: 24.5%;
+    left:24%;
+    background: #3666AE;
+    border-radius: 23px;
+}
+.mesg-front{
+    position: absolute;
+    width: 28%;
+    height:25%;
+    background: #DD5E65;
+    right:3%;
+    top:-4%;
+    border-radius: 10%;
+    box-shadow:2px 2px 2px 0px;
+   
+}
+.inner-mesg-front{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 2;
+    border-radius: 12%;
+    background: #DD5E65;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left:36%;
+    color:white;
+    z-index: 2;
+    
+}
+.text p{
+    font-size:45px;
+    transform:rotate(4deg);
+    text-shadow: 0.5px 2px;
+}
+.toe{
+    position: absolute;
+    background: #DD5E65;
+    width: 25%;
+    height:30%;
+    border-radius:12%;
+    bottom:-12%;
+    left:37.5%;
+    transform:rotate(40deg);
+    box-shadow:2px 2px 2px 0px;
+}
+
+/* source code  details*/
+
+
+.index-file{
+    width: 600px;   
+}
+.index-file p{
+    font-family: monospace;
+    margin-left: 12%;
+    
+} 
+.index p{
+    font-family: monospace;
+    margin-left: 12%;
+}
+
+
+/* Media query for the responsive view */
+@media screen and (max-width:608px)
+{  
+    .box{
+        width: 420px;
+        height:330px;
+    }
+    .text{
+    top: 24%;
+}
+.text p{
+    font-size:35px;
+    transform:rotate(4deg);
+    text-shadow: 0px 0px;
+
+}
+     .index-file{
+        width: 100%;
+    }
+    .index-file p{
+        margin-left: 12.5%;
+    }
+
+}
+@media screen and (max-width:424px)
+{   
+    .box{
+        width: 274px;
+        height:244px;
+    }
+    .text{
+    position: absolute;
+    top: 25%;
+    left:36%;   
+  }
+.text p{
+    font-size:24px;
+    transform:rotate(4deg);
+    text-shadow: 0px 0px;
+
+   }
+    .back-circle{
+    height:22%;
+    width:20%;
+    bottom:30%;
+}
+    .index-file{
+        width: 100%;
+    }
+    .index-file p{
+    margin-left:2.8%
+} 
+    .index p{
+        margin-left: 2.8%;
+    }
+  
+
+}
+
+.btn-primary{
+    margin-left: 12%;
+    width:80%;
+    height:35px;
+    margin-bottom: 20px;
+    border-radius:0px;
+}
+.next-btn{
+    padding:10px;
+    background: #DD5E65;
+    color:white;  
+}
+.next-btn:hover{
+    padding:20px;
+    background: #3666AE;
+    color:white; 
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+
+
+/* Bottom */
+.bottom{
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+    color:white;
+    width:100%
+}

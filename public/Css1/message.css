@@ -1,0 +1,279 @@
+/* color code */
+
+#one {
+    color: red;
+}
+
+#two {
+    color: #07bc46;
+}
+
+#three {
+    color: #1c07bc;
+}
+
+#four {
+    color: #fc7005;
+}
+
+#five {
+    color: #4b827e;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+}
+
+.name p {
+    padding: 7px;
+    font-size: 27px;
+    color: white
+}
+
+.box {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 440px;
+    margin-top: 8%;
+}
+
+.circle {
+    position: absolute;
+    width: 60%;
+    height: 82%;
+    top: 0.8%;
+    left: 20%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #37A5E8, #0392EA);
+}
+
+.msg-1 {
+    position: absolute;
+    width: 55%;
+    height: 41%;
+    background: #9DD9FF;
+    top: 22%;
+    right: 17%;
+    border-radius: 15%;
+}
+
+.right-triangle {
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    background: #9DD9FF;
+    top: 35%;
+    right: -12%;
+    transform: rotate(50deg);
+    border-top-right-radius: 15%;
+}
+
+.msg-2 {
+    position: absolute;
+    width: 55%;
+    height: 41%;
+    background: #ffffFF;
+    bottom: 25%;
+    left: 17%;
+    border-radius: 15%;
+}
+
+.left-triangle {
+    position: absolute;
+    height: 30%;
+    width: 25%;
+    background: #ffffff;
+    top: 35%;
+    left: -12%;
+    transform: rotate(50deg);
+    border-bottom-left-radius: 15%;
+}
+
+.eye-1 {
+    position: absolute;
+    height: 26%;
+    width: 19%;
+    top: 32%;
+    left: 21%;
+    border: 8px solid #0392EA;
+    border-radius: 50%;
+}
+
+.eye-2 {
+    position: absolute;
+    height: 26%;
+    width: 19%;
+    top: 33%;
+    right: 21%;
+    border: 8px solid #0392EA;
+    border-radius: 50%;
+}
+
+.wrapper {
+    position: absolute;
+    height: 25%;
+    width: 70%;
+    background: #ffffff;
+    top: 43.5%;
+    left: 15%;
+}
+
+
+.mouth {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    top: 53%;
+    left: 35%;
+    background: #000;
+    transform: rotate(180deg);
+    -webkit-clip-path: circle(50% at 50% 100%);
+    clip-path: circle(50% at 50% 100%);
+}
+
+.toungh {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 50.7%;
+    left: 40%;
+    background: #F0B8BA;
+    -webkit-clip-path: circle(50% at 50% 100%);
+    clip-path: circle(50% at 50% 100%);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+.index p {
+    font-family: monospace;
+    margin-left: 12%;
+    font-size: 14.2px;
+}
+
+.btn {
+    padding: 8px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+/* source code  details*/
+
+.index-file {
+    width: 600px;
+}
+
+.index-file p {
+    font-family: monospace;
+    margin-left: 12%;
+}
+
+/* media queries for responsive view */
+
+@media screen and (max-width:615px) {
+    .box {
+        width: 406px;
+        height: 300px;
+    }
+    .left-triangle {
+
+        top: 36%;
+        left: -11%;
+
+    }
+    .eye-1 {
+        border: 5px solid #0392EA;
+    }
+    .eye-2 {
+
+        border: 5px solid #0392EA;
+    }
+    .index-file {
+        width: 100%;
+    }
+    .index-file p {
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .box {
+        width: 270px;
+        height: 200px;
+    }
+    .eye-1 {
+        left: 21%;
+        border: 3px solid #0392EA;
+
+    }
+    .eye-2 {
+        top: 33%;
+        right: 21%;
+        border: 3px solid #0392EA;
+        border-radius: 50%;
+    }
+    .toungh {
+        top: 51.5%;
+    }
+
+    .index-file {
+        width: 100%;
+    }
+
+    .index-file p {
+        margin-left: 2.8%;
+    }
+    .index p {
+        font-family: monospace;
+        margin-left: 2.8%;
+    }
+}
+
+.btn-success {
+    margin-left: 12%;
+    width: 80%;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.next-btn{
+    padding:10px;
+    background: #000;
+    color:white;  
+}.next-btn:hover{
+    padding:20px;
+    background: #0392EA;
+    color:white; 
+    text-decoration: none;
+}
+
+
+/* Bottom */
+
+.bottom {
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+    color: white;
+    width: 100%
+}
